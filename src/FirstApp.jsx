@@ -1,12 +1,33 @@
 //import { Fragment } from "react"
 
+//const newMessage='Nicolas';
+
+const newMessage={
+    message:'WEna wena',
+    title:'Nicolas'
+}
+
+//para traer el objeto se puede user Json.stringfy
+
+function getString(){
+    return(
+    <h1>hola hola soy una funcion</h1>
+    
+    )
+}
 
 
 export function FirstApp (){
+    //se puede sacar de aqui
+    /* const newMessage='Nicolas'; */
+
     return(
         <div>
+        <h1>{ getString()}</h1>
         <h1>First App</h1>
-        <p>Soy un subtitulo</p>
+        {/* <code>{JSON.stringify(newMessage)}</code> */}
+        <h1>{ newMessage.title }</h1>
+        <p>Soy un subtitulo </p>
         </div>
     )
 }
