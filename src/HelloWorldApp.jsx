@@ -10,7 +10,6 @@
 
 //usando HelloWorldApp en el componente
 
-
 export const HelloWorldApp = () => {
   return (
     <h1>HelloWorldApp</h1>
