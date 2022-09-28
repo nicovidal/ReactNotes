@@ -1,6 +1,13 @@
+//import { Fragment } from "react"
+
+
+
 export function FirstApp (){
     return(
+        <div>
         <h1>First App</h1>
+        <p>Soy un subtitulo</p>
+        </div>
     )
 }
 
