@@ -12,7 +12,7 @@ describe('Pruebas en 11-async-await', () => {
         console.log(url)
 
         expect(typeof url).toBe('string');
-    
+  
     })
 
 })
